@@ -11,13 +11,27 @@
 <body>
     <header class="header">
         <a href="#" class="logo">Portfolio</a>
-        <nav class="navbar">
+        <nav class="navbar" id="menulist">
+            <a href="#"  class="active">Home</a>
+            <a href="#">About</a>
+            <a href="#">Skill</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+           
+        </nav>
+         <div class="menu-icon">
+            <img src="pic/menu-close (5).svg" width="50px" onclick="togglemenu()" alt="">
+            </div>
+        <!-- <nav class="navbar" id="menulist">
             <a href="#" style="--i:1" class="active">Home</a>
             <a href="#"style="--i:2">About</a>
             <a href="#"style="--i:3">Skill</a>
             <a href="#"style="--i:4">Portfolio</a>
             <a href="#"style="--i:5">Contact</a>
-        </nav>
+            <div class="menu-icon">
+            <img src="pic/menu-close (5).svg" width="50px" onclick="togglemenu()" alt="">
+            </div>
+        </nav> -->
     </header>
      <section class="home">
         <div class="home-content">
@@ -43,14 +57,13 @@
      <section class="about" id="about">
         <!-- <div class="about-img"> -->
             <div class="img2">
-          <!-- <img width="600px" src="pic/Screenshot_20251224-200149_1.png" alt="">   -->
            <img width="600" src="pic/Screenshot_20251225-000306_1.png" alt="">
              </div>
         <div class="about-text">
             <h2>About <span>Me</span></h2>
             <h4>full stack Developor</h4>
-            <p>i am a skilled web designer with over 3 yaer experiance in the industry.my passion captivating web site design and imlimenting them through frontend devlpmont. i talk up to date with current design trends and leverging my creativity to produce vissual user frendily website. Thorougout my career. i have developed a deep...? understanding and user interface principles. by putting my self in the show of the end user creat insitute seamless browsing experiance. i belive that a well-design we only look vissual appealing but also provide a smooth enjoyable intreaction for strating a new project, i thoroughly reasrch and analyz thr target audiance and the requarment.This enabless me to tailor my design to meet their expectation and the unique online presence that align with their brand indentity... </p>
-            <a href="#" class="btn-box">More About Me</a>
+            <p>I am a skilled web designer with over 3 years of experience, specializing in creating visually appealing and user-friendly websites. I am passionate about transforming modern design concepts into responsive frontend solutions. I stay up to date with current design trends and focus on delivering seamless user experiences by understanding user behavior and interface principles. My goal is to create engaging digital experiences that align with brand identity and meet user expectations.x` </p>
+            <a href="#" class="btn-box1">More About Me</a>
         </div>
      </section>
         <section>
@@ -93,18 +106,18 @@
         </div>
      </div>
      </section>
-     <h1 class="sub-title"> My <span>Skills</span></h1>
+     <h1 class="sub-title1"> My<span>Skills</span></h1>
 
      <section>
         <div class="contanier1" id="skills">
             <h1 class="heading1">Technical Skills</h1>
             <div class="tecnical-bars">
                 <div class="bar"><i style="color: #c95d2e;" class='bx bxl-html5'></i>
-                    <div class="bg-white">
+                <div class="bg-white">
                     <div class="info html">
                     <span>90%</span>
                     </div>
-                    </div>
+                </div>
                     <div class="progress-line html">
                         <span></span>
                     </div>
@@ -153,39 +166,81 @@
                 Professional Skills
             </h1>
             <div class="redical-bars">
+            <div class="redical-bar">
+            
                 <svg x="0px" y="0px" viewbox="0 0 200 200">
                     <circle class="progress-bars" cx="100" cy="100" r="80"></circle>
                     <circle class="path path-1" cx="100" cy="100" r="80"></circle>
                 </svg>
-                <div class="persentage">90%</div>
-                <div class="text">Creativity</div>
+
+                <div class="persentage">65%</div>
+                <div class="text1">Creativity</div>
+               
             </div>
-            <div class="redical-bars">
+           
+            <div class="redical-bar">
+                <svg x="0px" y="0px" viewbox="0 0 200 200">
+                    <circle class="progress-bars" cx="100" cy="100" r="40"></circle>
+                    <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="persentage">75%</div>
+                <div class="text1">Comnication</div>
+            </div>
+            <div class="redical-bar">
                 <svg x="0px" y="0px" viewbox="0 0 200 200">
                     <circle class="progress-bars" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-3" cx="100" cy="100" r="80"></circle>
                 </svg>
-                <div class="persentage">90%</div>
-                <div class="text">Creativity</div>
+                <div class="persentage">85%</div>
+                <div class="text1">Experiance</div>
             </div>
-            <div class="redical-bars">
+            <div class="redical-bar">
                 <svg x="0px" y="0px" viewbox="0 0 200 200">
                     <circle class="progress-bars" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                    <circle class="path path-4" cx="100" cy="100" r="80"></circle>
                 </svg>
-                <div class="persentage">90%</div>
-                <div class="text">Creativity</div>
+                <div class="persentage">95%</div>
+                <div class="text1">Teamwork</div>
             </div>
-            <div class="redical-bars">
-                <svg x="0px" y="0px" viewbox="0 0 200 200">
-                    <circle class="progress-bars" cx="100" cy="100" r="80"></circle>
-                    <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="persentage">90%</div>
-                <div class="text">Creativity</div>
-            </div>
+          
         </div>
+        </div>
+        
          <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script> 
          <script src="main.js"></script>
+         <!-- <section>
+            <div id="portfolio" id="project">
+                <div class="main-text" id="project">
+                   <h2>Latest<span>Project</span></h2>
+
+                   <div class="portfolio-content">
+                    <div class="row">
+                        <img src= "pic/download (1).jpeg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse officia unde excepturi amet, nobis laborum dolorum doloribus, fugit, reprehenderit commodi aut eius quo laboriosam sint!</p>
+                            <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="pic/Top-10-Reasons-to-Choose-an-Indian-Website-Development-Company-in-2024-.jpg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse officia unde excepturi amet, nobis laborum dolorum doloribus, fugit, reprehenderit commodi aut eius quo laboriosam sint!</p>
+                            <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="pic/1650347720732.jpeg" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse officia unde excepturi amet, nobis laborum dolorum doloribus, fugit, reprehenderit commodi aut eius quo laboriosam sint!</p>
+                            <a href="#"><i class='bx bx-link-external' style="color:aliceblue;"></i></a>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </section> -->
 </body>
 </html>
