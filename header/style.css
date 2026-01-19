@@ -781,7 +781,7 @@ float: inline-end;
 }
 .img2 img{
   margin-top: 110vw; 
-  margin-left: 160px;
+  margin-left: 120px;
 }
 .about-text h2{
   margin-left: -440px;
@@ -807,7 +807,7 @@ float: inline-end;
 }
 .sevices-list{
   width: 750px;
-  margin-left:70px;
+  margin-left:30px;
 }
 .sevices-list div {
   margin-left: 20px;
