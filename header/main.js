@@ -1,18 +1,12 @@
-var typed = new Typed(".text", {
-  strings: ["Frontend Developer", "Youtuber", "Web Developer.."],
-  typeSpeed: 100,
-  backSpeed: 100,
-  backDelay: 1000,
-  loop: true,
-});
- let menulist = document.getElementById("menulist")
-            menulist.style.maxHeight = "0px"
-function togglemenu(){
-  if(menulist.style.maxHeight = "0px")
-  {
-    menulist.style.maxHeight ="300px";
-  }
-  else{
-    menulist.style.maxHeight = "0px"
+const menu = document.querySelector(".menu");
+let open;
+
+function openMenu() {
+  if (open) {
+    menu.style.display = "none";
+    open = false;
+  } else if (!open) {
+    menu.style.display = "block";
+    open = true;
   }
 }
