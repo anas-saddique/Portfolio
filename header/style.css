@@ -875,10 +875,12 @@ float: inline-end;
 .about-text h2{
   margin-left: -580px;
   font-size: 60px;
-  margin-top: 100vw;
+  margin-top: 10vw;
 }
 .about-text p{
-  margin-left: 700px;
+  margin-left: 100px;
+  font-size: 40px;
+
 }
 .about-text h4{
   margin-left: -700px;
@@ -914,7 +916,10 @@ font-size: 70px;
   text-decoration: none;
 }
 .btn-box{
-  margin-top: 600px;
+  margin-top: 00px;
+}
+.img1 img{
+  margin-top: 50px;
 }
 }
 @media only screen and (min-width:600px){
@@ -922,7 +927,6 @@ font-size: 70px;
     margin-top: 10vw;
     margin-right: 90px;
   }
-
   .header{
     width: 880px;
   }
@@ -930,7 +934,6 @@ font-size: 70px;
   width: 710px;
   margin-left:80px;
 }
-
 .img1 img{
   margin-top: 800px;
 }
@@ -944,7 +947,6 @@ font-size: 70px;
   margin-left: 0px;
   width: 400px;
   height: 500px;
-  
 }
 .redical-bar{
   width: 800px;
