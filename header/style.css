@@ -685,6 +685,28 @@ stroke: #0ef;
     transform: scaleX(4);
   }
 }
+.home-content{
+  animation: appear 5s linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+.scrol{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@keyframes appear{
+  form {
+    opacity: 0;
+    scale: 0.4;
+  }
+  to{
+    opacity: 1;
+    scale: 1;
+  }
+}
 /* @media only screen and (max-width:820px){
     .navbar a {
     position: absolute;
@@ -694,7 +716,7 @@ stroke: #0ef;
     flex-direction: column;
     text-align: center;
     gap: 0;
-    overflow: hidden;
+    overflow: hidden; 
   }
   .menu-icon{
     display: block;
@@ -712,13 +734,12 @@ stroke: #0ef;
    }
 
 } */
-
 @media screen and (max-width: 800px) {
 
   .header {
     flex-direction: column;
     padding: 30px;
-    width: 930px;
+    width: 830px;
   }
    
   .mobileHeader {
@@ -747,13 +768,14 @@ float: inline-end;
     height: 50px;
   }
   .home{
-    margin-left: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
   }
   .home-content h3{
-    font-size: 50px;
+    font-size: 30px;
   }
   .home-content h1{
-    font-size: 70px;
+    font-size: 40px;
   }
   .home-content p{
     font-size: 20px;
@@ -834,7 +856,7 @@ float: inline-end;
 }
 
 .img1 img{
-  float: left;
+  margin-top: 600px;
 }
 .redical-bars{
   display: flex;
@@ -908,4 +930,99 @@ font-size: 70px;
   margin-left: 90px;
   text-decoration: none;
 }
+.btn-box{
+  margin-top: 600px;
+}
+}
+@media only screen and (min-width:389px){
+   .img2 img{
+    margin-top: 120vw;
+    margin-right: 90px;
+  }
+  .header{
+    width: 880px;
+  }
+  .sevices-list{
+  width: 710px;
+  margin-left:80px;
+}
+
+.img1 img{
+  margin-top: 600px;
+}
+.redical-bars{
+  display: flex;
+  gap: 90px;
+  margin-left: 0px;
+  height: 200px;
+}
+.redical-bar svg{
+  margin-left: 0px;
+  width: 400px;
+  height: 500px;
+  
+}
+.redical-bar{
+  width: 800px;
+  height: 400px;
+}
+.btn-box1{
+  margin-left: -490px;
+  margin-top: 0vw;
+  font-size: 20px;
+  width: 220px;
+  font-family: sans-serif;
+}
+.about-text h2{
+  margin-left: -580px;
+  font-size: 60px;
+  margin-top: -100vw;
+}
+.about-text p{
+  margin-left: -700px;
+}
+.about-text h4{
+  margin-left: -700px;
+}
+.img1 img{
+  margin-top: -30vw;
+  margin-left: 10px;
+}
+.home-content{
+  margin-left: 40px;
+}
+.sub-title{
+  margin-left: 70px;
+}
+.sub-title1{
+margin-left: 290px;
+font-size: 70px;
+/* position: absolute; */
+}
+.navbar1{
+  display: inline;
+  background-color: #000000;
+}
+.logo{
+  ;
+}
+.tecnical-bars{
+ margin-left: 50px;
+ width: 400px;
+}
+.redical-bars{
+  margin-left: 90px;
+}
+.contanier1 h1{
+  margin-left: 100px;
+}
+.heading1 span{
+  font-size: 40px;
+  display: flex;
+  margin-left: 90px;
+  text-decoration: none;
+}
+.btn-box{
+  margin-top: 600px;
+} 
 }
