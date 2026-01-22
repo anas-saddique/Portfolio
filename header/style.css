@@ -933,14 +933,16 @@ font-size: 70px;
 }
 }
 @media only screen and (max-width:600px){
-   /* .img2 img{
+   .img2 img{
     margin-top: 120vw;
     margin-right: 90px;
-  } */
-  
-  .img1 img {
-    margin-top: 20vw;
-    margin-left: 45px;
+  }
+  .home-sci{
+   height: 2px;
+  }
+  .home-content h3 {
+    margin-top: 21px;
+    font-size: 20px;
 }
     }
         .img2 img {
@@ -953,10 +955,6 @@ font-size: 70px;
   .sevices-list{
   width: 710px;
   margin-left:80px;
-}
-
-.img1 img{
-  margin-top: 600px;
 }
 .redical-bars{
   display: flex;
@@ -999,6 +997,13 @@ font-size: 70px;
 .home-content{
   margin-left: 40px;
   margin-top: -17vw;
+}
+.home-content h3{
+  margin-top: 70px;
+  font-size:20px;
+}
+.home-content h2{
+  margin-top: -50px;
 }
 .sub-title{
   margin-left: 70px;
