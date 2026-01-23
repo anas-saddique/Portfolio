@@ -787,7 +787,10 @@ float: inline-end;
     row-gap: 40px;
     column-gap: 0;
     justify-items: center;
-    margin-right: 200px;
+    margin-right: 250px;
+    margin-top: 30px;
+    transition: none;
+    animation: none;
   }
   .img1 img{
    /* float:right ; */
@@ -965,6 +968,10 @@ font-size: 70px;
 .hamburger1{
   color: #0ef;
   cursor: pointer;
+}
+.list{
+  transition: none;
+  animation: none;
 }
 }
 /* @media only screen and (min-width:600px){
