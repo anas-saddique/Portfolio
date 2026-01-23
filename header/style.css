@@ -858,9 +858,11 @@ float: inline-end;
   }
   .home-content h1{
     font-size: 50px;
+    width: 100%;
   }
   .home-content h3{
-    font-size: 50px;
+    font-size: 40px;
+    width: 100%;
   }
   .header{
     width: 880px;
@@ -960,9 +962,10 @@ font-size: 70px;
 }
 .home-content p{
   font-size: 35px;
+  width: 590px;
 }
 .text{
-  font-size:40px;
+  font-size:37px;
  margin-bottom: 50px;
 }
 .hamburger1{
