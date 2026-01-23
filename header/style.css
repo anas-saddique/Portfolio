@@ -787,6 +787,7 @@ float: inline-end;
     row-gap: 40px;
     column-gap: 0;
     justify-items: center;
+    margin-right: 200px;
   }
   .img1 img{
    /* float:right ; */
@@ -836,13 +837,13 @@ float: inline-end;
 }
  @media only screen and (max-width:389px) {
   .img2 img{
-    margin-top: 420vw;
+    margin-top: 450vw;
     margin-right: 90px;
 
     /* position: absolute; */
   }
   .logo{
-    margin-left: -690px;
+    margin-left: -730px;
   }
   .home{
     margin-top: 120px;
@@ -850,6 +851,7 @@ float: inline-end;
   }
   .home-content{
     font-size: 50px;
+
   }
   .home-content h1{
     font-size: 50px;
@@ -907,7 +909,7 @@ margin-top: 30px;
 .about-text h2{
   margin-left: -540px;
   font-size: 60px;
-  margin-top:-7vw;
+  margin-top:70vw;
 }
 .about-text p{
   /* margin-left: 100px; */
@@ -954,13 +956,15 @@ font-size: 70px;
   margin-top: 50px;
 }
 .home-content p{
-  font-size: 30px;
+  font-size: 35px;
 }
 .text{
   font-size:40px;
  margin-bottom: 50px;
 }
-.hamburger{
+.hamburger1{
+  color: #0ef;
+  cursor: pointer;
 }
 }
 /* @media only screen and (min-width:600px){
