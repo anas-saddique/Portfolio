@@ -846,7 +846,7 @@ float: inline-end;
     /* position: absolute; */
   }
   .logo{
-    margin-left: -730px;
+    margin-left: -750px;
   }
   .home{
     margin-top: 120px;
@@ -877,7 +877,10 @@ float: inline-end;
 /* background-color: #000000; */
  align-items: center;
 justify-content: center;
-margin-right: 110px;
+margin-right: 180px;
+width: 560px;
+margin-left: -720px;
+font-size: 30px;
 }
 .img1 img{
 margin-left: 50px;
@@ -902,7 +905,7 @@ margin-top: 30px;
   height: 400px;
 }
 .btn-box1{
-  margin-left:-630px;
+  margin-left:-730px;
   margin-top: 0vw;
   font-size: 20px;
   width: 220px;
@@ -921,7 +924,7 @@ margin-top: 30px;
   font-size: 30px;
 }
 .about-text h4{
-  margin-left:-650px;
+  margin-left:-720px;
   font-size: 30px;
 }
 .home-content{
